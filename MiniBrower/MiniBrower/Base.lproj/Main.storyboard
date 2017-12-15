@@ -27,6 +27,9 @@
                                     <segment title="apple"/>
                                     <segment title="google"/>
                                 </segments>
+                                <connections>
+                                    <action selector="bookMarkAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="Qab-eT-VEM"/>
+                                </connections>
                             </segmentedControl>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ltj-Ge-7ii">
                                 <rect key="frame" x="0.0" y="49" width="414" height="30"/>
@@ -40,13 +43,29 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="opk-GK-RGb"/>
-                                    <barButtonItem systemItem="rewind" id="GO7-f2-zCZ"/>
+                                    <barButtonItem systemItem="rewind" id="GO7-f2-zCZ">
+                                        <connections>
+                                            <action selector="goBackAction:" destination="BYZ-38-t0r" id="hJW-NE-Lah"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="ipw-s0-jvK"/>
-                                    <barButtonItem systemItem="fastForward" id="eX3-oC-sGA"/>
+                                    <barButtonItem systemItem="fastForward" id="eX3-oC-sGA">
+                                        <connections>
+                                            <action selector="goForwordAction:" destination="BYZ-38-t0r" id="L8w-47-60u"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="LD5-VA-N0F"/>
-                                    <barButtonItem systemItem="stop" id="HaN-Ai-Akw"/>
+                                    <barButtonItem systemItem="stop" id="HaN-Ai-Akw">
+                                        <connections>
+                                            <action selector="stopLoadingAction:" destination="BYZ-38-t0r" id="dtG-pK-yfJ"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="8qt-wQ-lgy"/>
-                                    <barButtonItem systemItem="refresh" id="nLD-X6-Q1e"/>
+                                    <barButtonItem systemItem="refresh" id="nLD-X6-Q1e">
+                                        <connections>
+                                            <action selector="reloadAction:" destination="BYZ-38-t0r" id="prZ-93-wUU"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="32G-rm-YiM"/>
                                 </items>
                             </toolbar>
@@ -62,12 +81,18 @@
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="HAP-Rk-OOh">
                                 <rect key="frame" x="189" y="350" width="37" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="color" red="0.86830588850000001" green="0.99615263730000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="color" red="0.58152680048009286" green="0.80103099478886108" blue="0.96621346473693848" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="bookMarkSegmentedControl" destination="e1p-9T-7cK" id="tgi-aE-29G"/>
+                        <outlet property="mainWebView" destination="6IC-Jq-LkC" id="nGQ-Ia-lo8"/>
+                        <outlet property="spinningActivityIndicatorView" destination="HAP-Rk-OOh" id="0EY-hp-mfS"/>
+                        <outlet property="urlTextField" destination="ltj-Ge-7ii" id="LhI-Ad-3Pk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
