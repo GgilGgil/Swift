@@ -23,10 +23,17 @@ class ViewController: UIViewController {
         let myURL = URL(string: initURL)
         let myRequest = URLRequest(url: myURL!)
         mainWebView.load(myRequest)
+        
+        urlTextField.text = initURL
     }
     
     @IBAction func bookMarkAction(_ sender: Any) {
+        let bookMarkURL = bookMarkSegmentedControl.titleForSegment(at: bookMarkSegmentedControl.selectedSegmentIndex)
         
+        let urlString:String = "https://www.\(bookMarkURL!).com"
+        mainWebView.load(URLRequest(url: URL(string: urlString)!))
+        
+        urlTextField.text = urlString
     }
     
     @IBAction func goBackAction(_ sender: Any) {
