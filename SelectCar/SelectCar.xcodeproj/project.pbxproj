@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5F5069C1FECFA9F006822AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F5069B1FECFA9F006822AF /* AppDelegate.swift */; };
+		B5F5069E1FECFA9F006822AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F5069D1FECFA9F006822AF /* ViewController.swift */; };
+		B5F506A11FECFA9F006822AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F5069F1FECFA9F006822AF /* Main.storyboard */; };
+		B5F506A31FECFA9F006822AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F506A21FECFA9F006822AF /* Assets.xcassets */; };
+		B5F506A61FECFA9F006822AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F506A41FECFA9F006822AF /* LaunchScreen.storyboard */; };
+		B5F506B71FECFADC006822AF /* hyundai_starex.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F506AE1FECFADB006822AF /* hyundai_starex.png */; };
+		B5F506B81FECFADC006822AF /* hyundai_avante.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F506AF1FECFADB006822AF /* hyundai_avante.png */; };
+		B5F506B91FECFADC006822AF /* kia_sorento.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F506B01FECFADC006822AF /* kia_sorento.png */; };
+		B5F506BA1FECFADC006822AF /* renaultsamsung_qm3.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F506B11FECFADC006822AF /* renaultsamsung_qm3.png */; };
+		B5F506BB1FECFADC006822AF /* kia_k5.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F506B21FECFADC006822AF /* kia_k5.png */; };
+		B5F506BC1FECFADC006822AF /* kia_carnival.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F506B31FECFADC006822AF /* kia_carnival.png */; };
+		B5F506BD1FECFADC006822AF /* renaultsamsung_qm6.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F506B41FECFADC006822AF /* renaultsamsung_qm6.png */; };
+		B5F506BE1FECFADC006822AF /* hyundai_kona.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F506B51FECFADC006822AF /* hyundai_kona.png */; };
+		B5F506BF1FECFADC006822AF /* renaultsamsung_sm6.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F506B61FECFADC006822AF /* renaultsamsung_sm6.png */; };
+		B5F506C11FECFB2D006822AF /* backgroundimg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5F506C01FECFB2D006822AF /* backgroundimg.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5F506981FECFA9F006822AF /* SelectCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F5069B1FECFA9F006822AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5F5069D1FECFA9F006822AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5F506A01FECFA9F006822AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5F506A21FECFA9F006822AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5F506A51FECFA9F006822AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5F506A71FECFA9F006822AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F506AE1FECFADB006822AF /* hyundai_starex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hyundai_starex.png; sourceTree = "<group>"; };
+		B5F506AF1FECFADB006822AF /* hyundai_avante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hyundai_avante.png; sourceTree = "<group>"; };
+		B5F506B01FECFADC006822AF /* kia_sorento.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kia_sorento.png; sourceTree = "<group>"; };
+		B5F506B11FECFADC006822AF /* renaultsamsung_qm3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = renaultsamsung_qm3.png; sourceTree = "<group>"; };
+		B5F506B21FECFADC006822AF /* kia_k5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kia_k5.png; sourceTree = "<group>"; };
+		B5F506B31FECFADC006822AF /* kia_carnival.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kia_carnival.png; sourceTree = "<group>"; };
+		B5F506B41FECFADC006822AF /* renaultsamsung_qm6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = renaultsamsung_qm6.png; sourceTree = "<group>"; };
+		B5F506B51FECFADC006822AF /* hyundai_kona.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hyundai_kona.png; sourceTree = "<group>"; };
+		B5F506B61FECFADC006822AF /* renaultsamsung_sm6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = renaultsamsung_sm6.png; sourceTree = "<group>"; };
+		B5F506C01FECFB2D006822AF /* backgroundimg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundimg.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5F506951FECFA9F006822AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5F5068F1FECFA9F006822AF = {
+			isa = PBXGroup;
+			children = (
+				B5F5069A1FECFA9F006822AF /* SelectCar */,
+				B5F506991FECFA9F006822AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5F506991FECFA9F006822AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5F506981FECFA9F006822AF /* SelectCar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5F5069A1FECFA9F006822AF /* SelectCar */ = {
+			isa = PBXGroup;
+			children = (
+				B5F506AD1FECFAA6006822AF /* Resource */,
+				B5F5069B1FECFA9F006822AF /* AppDelegate.swift */,
+				B5F5069D1FECFA9F006822AF /* ViewController.swift */,
+				B5F5069F1FECFA9F006822AF /* Main.storyboard */,
+				B5F506A21FECFA9F006822AF /* Assets.xcassets */,
+				B5F506A41FECFA9F006822AF /* LaunchScreen.storyboard */,
+				B5F506A71FECFA9F006822AF /* Info.plist */,
+			);
+			path = SelectCar;
+			sourceTree = "<group>";
+		};
+		B5F506AD1FECFAA6006822AF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B5F506C01FECFB2D006822AF /* backgroundimg.jpg */,
+				B5F506AF1FECFADB006822AF /* hyundai_avante.png */,
+				B5F506B51FECFADC006822AF /* hyundai_kona.png */,
+				B5F506AE1FECFADB006822AF /* hyundai_starex.png */,
+				B5F506B31FECFADC006822AF /* kia_carnival.png */,
+				B5F506B21FECFADC006822AF /* kia_k5.png */,
+				B5F506B01FECFADC006822AF /* kia_sorento.png */,
+				B5F506B11FECFADC006822AF /* renaultsamsung_qm3.png */,
+				B5F506B41FECFADC006822AF /* renaultsamsung_qm6.png */,
+				B5F506B61FECFADC006822AF /* renaultsamsung_sm6.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5F506971FECFA9F006822AF /* SelectCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F506AA1FECFA9F006822AF /* Build configuration list for PBXNativeTarget "SelectCar" */;
+			buildPhases = (
+				B5F506941FECFA9F006822AF /* Sources */,
+				B5F506951FECFA9F006822AF /* Frameworks */,
+				B5F506961FECFA9F006822AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelectCar;
+			productName = SelectCar;
+			productReference = B5F506981FECFA9F006822AF /* SelectCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5F506901FECFA9F006822AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ParkGilNam;
+				TargetAttributes = {
+					B5F506971FECFA9F006822AF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B5F506931FECFA9F006822AF /* Build configuration list for PBXProject "SelectCar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5F5068F1FECFA9F006822AF;
+			productRefGroup = B5F506991FECFA9F006822AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5F506971FECFA9F006822AF /* SelectCar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5F506961FECFA9F006822AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F506A61FECFA9F006822AF /* LaunchScreen.storyboard in Resources */,
+				B5F506BB1FECFADC006822AF /* kia_k5.png in Resources */,
+				B5F506B71FECFADC006822AF /* hyundai_starex.png in Resources */,
+				B5F506BF1FECFADC006822AF /* renaultsamsung_sm6.png in Resources */,
+				B5F506BC1FECFADC006822AF /* kia_carnival.png in Resources */,
+				B5F506BA1FECFADC006822AF /* renaultsamsung_qm3.png in Resources */,
+				B5F506BD1FECFADC006822AF /* renaultsamsung_qm6.png in Resources */,
+				B5F506B91FECFADC006822AF /* kia_sorento.png in Resources */,
+				B5F506A31FECFA9F006822AF /* Assets.xcassets in Resources */,
+				B5F506B81FECFADC006822AF /* hyundai_avante.png in Resources */,
+				B5F506A11FECFA9F006822AF /* Main.storyboard in Resources */,
+				B5F506BE1FECFADC006822AF /* hyundai_kona.png in Resources */,
+				B5F506C11FECFB2D006822AF /* backgroundimg.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5F506941FECFA9F006822AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F5069E1FECFA9F006822AF /* ViewController.swift in Sources */,
+				B5F5069C1FECFA9F006822AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5F5069F1FECFA9F006822AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F506A01FECFA9F006822AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5F506A41FECFA9F006822AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F506A51FECFA9F006822AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5F506A81FECFA9F006822AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5F506A91FECFA9F006822AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5F506AB1FECFA9F006822AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AYUBF3UYBE;
+				INFOPLIST_FILE = SelectCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GilNam.SelectCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5F506AC1FECFA9F006822AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AYUBF3UYBE;
+				INFOPLIST_FILE = SelectCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GilNam.SelectCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5F506931FECFA9F006822AF /* Build configuration list for PBXProject "SelectCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F506A81FECFA9F006822AF /* Debug */,
+				B5F506A91FECFA9F006822AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F506AA1FECFA9F006822AF /* Build configuration list for PBXNativeTarget "SelectCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F506AB1FECFA9F006822AF /* Debug */,
+				B5F506AC1FECFA9F006822AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5F506901FECFA9F006822AF /* Project object */;
+}
